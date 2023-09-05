@@ -1,23 +1,61 @@
 <!DOCTYPE html>
 <html>
-<title>N>V_Truong</title>
+<title>Nguyễn Văn Trường - 2221050621</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 
-<div class="w3-container w3-teal">
-  <h1>Nguyễn Văn Trường - 2221050621</h1>
-</div>
+<header class="w3-container w3-teal">
+  <h1>Header</h1>
+</header>
 
-<img src="C:\Users\tyl\OneDrive - Hanoi University of Mining and Geology\Ảnh\Save\hi.jpg" alt="Car" style="width:100%">
+<img src="img_car.jpg" alt="Nice car" style="width:100%">
 
 <div class="w3-container">
-  <p>Nguyễn Văn Trường - 2221050621.</p>
+  <p>Nguyễn Văn Trường - 2221050621</p>    
+
+  <table class="w3-table w3-bordered w3-striped">
+    <tr class="w3-teal">
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>Nguyễn Văn</td>
+      <td>Trường</td>
+      <td>100</td>
+    </tr>
+  </table>
 </div>
 
-<div class="w3-container w3-teal">
-  <p>Nguyễn Văn Trường - 2221050621</p>
+<div class="w3-row-padding w3-section">
+
+  <div class="w3-half">
+    <div class="w3-card">
+      <img src="C:\Users\tyl\OneDrive - Hanoi University of Mining and Geology\Ảnh\Save\hi.jpg" alt="Hi" style="width:100%">
+      <div class="w3-container">
+        <p>Nguyễn Văn Trường - 2221050621</p>
+        <p>Nguyễn Văn Trường - 2221050621</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-half">
+    <div class="w3-card">
+      <img src="C:\Users\tyl\OneDrive - Hanoi University of Mining and Geology\Ảnh\Save\hi.jpg" alt="Hi" style="width:100%">
+      <div class="w3-container">
+        <p>Nguyễn Văn Trường - 2221050621.</p>
+        <p>Nguyễn Văn Trường - 2221050621</p>
+      </div>
+    </div>
+  </div>
+
 </div>
+
+<footer class="w3-container w3-teal">
+  <h5>Nguyễn Văn Trường</h5>
+  <p>2221050621</p>
+</footer>
 
 </body>
 </html>
